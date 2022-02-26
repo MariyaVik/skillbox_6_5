@@ -13,16 +13,13 @@ class _ListViewDividerState extends State<ListViewDivider> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'List view divider',
-            ),
-          ],
-        ),
-      ),
+      body: ListView.separated(
+          itemBuilder: (context, index) => Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(listData[index].toString()),
+              ),
+          separatorBuilder: (_, __) => const Divider(),
+          itemCount: listData.length),
     );
   }
 }

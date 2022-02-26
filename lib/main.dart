@@ -19,10 +19,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      // home: ListViewDivider(),
+      home: const ListViewDivider(),
       // home: HorizontalList(),
       // home: SliverWidgets(),
-      home: TextFieldStyled(),
+      // home: TextFieldStyled(),
     );
   }
 }
