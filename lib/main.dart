@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // home: const ListViewDivider(),
-      home: HorizontalList(),
+      // home: HorizontalList(),
       // home: SliverWidgets(),
-      // home: TextFieldStyled(),
+      home: TextFieldStyled(),
     );
   }
 }
