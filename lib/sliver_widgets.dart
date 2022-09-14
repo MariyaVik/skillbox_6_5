@@ -25,7 +25,7 @@ class _SliverWidgetsState extends State<SliverWidgets> {
                     fit: StackFit.expand,
                     children: [
                       Image.network(
-                        'https://picsum.photos/300/200',
+                        'https://bigpicture.ru/wp-content/uploads/2013/05/Tepuis01.jpg',
                         fit: BoxFit.fill,
                       ),
                       Container(

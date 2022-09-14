@@ -1,16 +1,23 @@
-# skillbox_6_5
+# Layouts
 
-A new Flutter project.
+## Скриншоты приложения
 
-## Getting Started
+### Изменение направления скроллинга списка
 
-This project is a starting point for a Flutter application.
+Ширина больше 500px
+<img src="assets/images/screenshots/1.png" width="330" height="500">
 
-A few resources to get you started if this is your first Flutter project:
+Ширина меньше 500px 
+<img src="assets/images/screenshots/2.png" width="330" height="500">
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Sliver AppBar
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="assets/images/screenshots/3.png" width="330" height="500">
+<img src="assets/images/screenshots/4.png" width="330" height="500">
+<img src="assets/images/screenshots/5.png" width="330" height="500">
+
+### TextField
+
+<img src="assets/images/screenshots/6.png" width="330" height="500">
+<img src="assets/images/screenshots/7.png" width="330" height="500">
+<img src="assets/images/screenshots/8.png" width="330" height="500">
